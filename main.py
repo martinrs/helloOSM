@@ -2,7 +2,7 @@
 from kivy.app import App
 from kivy.lang import Builder
 # Kivy MapView
-from kivy_garden.mapview import MapView, MapMarkerPopup
+from kivy.garden.mapview import MapView, MapMarkerPopup
 # Kivy properties
 from kivy.properties import NumericProperty, StringProperty
 

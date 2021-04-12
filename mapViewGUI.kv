@@ -1,5 +1,5 @@
 #:import sys sys
-#:import MapSource kivy_garden.mapview.MapSource
+#:import MapSource kivy.garden.mapview.MapSource
 
 Content:
     lat: 56
@@ -28,7 +28,6 @@ Content:
 <POIMarkerPopup>:
     lat: root.latitude
     lon: root.longitude
-    source: 'poimarker.png'
     popup_size: dp(500), dp(200)
     Bubble:
         BoxLayout:
